@@ -5,20 +5,26 @@ labels:
 body:
 - type: textarea
   id: expexted_behavior
-  label: 期待する動作
+  attributes:
+    label: 期待する動作
   validation:
     required: true
 - type: textarea
   id: actual_behavior
-  label: 実際の動作
+  attributes:
+    label: 実際の動作
   validation:
     required: true
 - type: textarea
   id: minconfig
-  label: Minimum config
+  attributes:
+    label: Minimum config
+    description: このバグを再現する必要最低限の設定を記述してください。直接の関連がある場合を除き、プラグインマネージャーを利用しない設定を作成してください。
   validation:
     required: true
 - type: textarea
-  label: Reproduction Steps
+  attributes:
+    label: Reproduction Steps
+    description: このバグを再現する方法を記述してください。
   validation:
     required: true
