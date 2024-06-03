@@ -1,0 +1,24 @@
+name: Bug Report
+description: "Create a bug report"
+labels: 
+  - bug
+body:
+- type: textarea
+  id: expexted_behavior
+  label: 期待する動作
+  validation:
+    required: true
+- type: textarea
+  id: actual_behavior
+  label: 実際の動作
+  validation:
+    required: true
+- type: textarea
+  id: minconfig
+  label: Minimum config
+  validation:
+    required: true
+- type: textarea
+  label: Reproduction Steps
+  validation:
+    required: true
