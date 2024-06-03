@@ -7,24 +7,24 @@ body:
   id: expexted_behavior
   attributes:
     label: 期待する動作
-  validation:
+  validations:
     required: true
 - type: textarea
   id: actual_behavior
   attributes:
     label: 実際の動作
-  validation:
+  validations:
     required: true
 - type: textarea
   id: minconfig
   attributes:
     label: Minimum config
     description: このバグを再現する必要最低限の設定を記述してください。直接の関連がある場合を除き、プラグインマネージャーを利用しない設定を作成してください。
-  validation:
+  validations:
     required: true
 - type: textarea
   attributes:
     label: Reproduction Steps
     description: このバグを再現する方法を記述してください。
-  validation:
+  validations:
     required: true
